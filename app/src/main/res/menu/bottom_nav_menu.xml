@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Navigation_Home"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/nav_restaurant"
+        android:icon="@drawable/checkout"
+        android:title="Restaurants"/>
+    <item
+        android:id="@+id/nav_tiffen"
+        android:icon="@drawable/checkout"
+        android:title="Tiffen"/>
+    <item
+        android:id="@+id/Navigation_Checkout"
+        android:icon="@drawable/checkout"
+        android:title="Checkout"/>
+</menu>

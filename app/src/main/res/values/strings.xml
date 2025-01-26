@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="name">Name</string>
+    <string name="skip">Skip</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signup">New to foody? Sign up</string>
+    <string name="email">Email</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="SignUP">Sign Up</string>
+    <string name="login_acc_already">Already have an account? Login</string>
+    <string name="SignIn">Sign In</string>
+    <string name="orderFood">Order Food</string>
+    <string name="tiffenService">Tiffen Service</string>
+    <string name="home">Home</string>
+    <string name="fresh_food">Fresh Food</string>
+    <string name="fast_delivery">Fast Delivery</string>
+    <string name="enjoy_today">Enjoy Today</string>
+    <string name="next">Next</string>
+    <string name="checkout">Check Out</string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="forgot_to">Forgot Password?</string>
+    <string name="sign_in_with">Or Sign In with</string>
+    <string name="otp">OTP</string>
+    <string name="dont_have_account_signUp">Don\'t have an account? Sign Up</string>
+    <string name="have_account_signIn">Already have an account? Sign In</string>
+    <string name="phone">Phone</string>
+    <string name="Dob">Date Of Birth</string>
+    <string name="terms_and_condition">I read and agree to Terms &amp; Privacy policy </string>
+    <string name="per_meal">Per Meal - </string>
+    <string name="lunch">lunch</string>
+    <string name="dinner">dinner</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="food_name">Food Name</string>
+    <string name="food_desc">basmati rice, sorted vegetables, afghani specs, slow cooked</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile > </string>
+    <string name="manage_prof">Manage Profile </string>
+    <string name="manage_Account">Manage Account </string>
+    <string name="logout">Log Out</string>
+    <string name="term_N_cond">Terms and Condition</string>
+    <string name="to_pay">To Pay : </string>
+    <string name="item_total">Item Total : </string>
+    <string name="confirm_pay">Confirm Pay</string>
+    <string name="cash">Cash</string>
+    <string name="upi">UPI</string>
+
+
+
+</resources>

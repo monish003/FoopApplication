@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:id="@+id/viewOuter"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/s_shape_curve"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/usernameEditText"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewOuter"
+        android:fontFamily="@font/proxima_nova_font"
+        android:text="@string/welcome_to"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewOuter"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/proxima_nova_font"
+        android:textStyle="bold"
+        android:hint="@string/name"
+        android:textColorHint="@color/orange"
+        android:textColor="@color/orange"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/emailEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/usernameEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewOuter"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/proxima_nova_font"
+        android:textStyle="bold"
+        android:hint="@string/email"
+        android:textColorHint="@color/orange"
+        android:textColor="@color/orange"
+        android:inputType="textEmailAddress"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewOuter"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/proxima_nova_font"
+        android:textStyle="bold"
+        android:hint="@string/password"
+        android:textColorHint="@color/orange"
+        android:textColor="@color/orange"
+        android:inputType="numberPassword"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/confirmPasswordEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewOuter"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/proxima_nova_font"
+        android:textStyle="bold"
+        android:hint="@string/confirmPassword"
+        android:textColorHint="@color/orange"
+        android:textColor="@color/orange"
+        android:inputType="numberPassword"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/phnEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/confirmPasswordEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewOuter"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/proxima_nova_font"
+        android:textStyle="bold"
+        android:hint="@string/phone"
+        android:textColorHint="@color/orange"
+        android:textColor="@color/orange"
+        android:inputType="phone"
+        android:maxLength="10"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/DobEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/phnEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewOuter"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/proxima_nova_font"
+        android:textStyle="bold"
+        android:hint="@string/Dob"
+        android:textColorHint="@color/orange"
+        android:textColor="@color/orange"
+        android:inputType="date"/>
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/checkboxTermsandPrivacy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_and_condition"
+        app:layout_constraintTop_toBottomOf="@+id/DobEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewOuter"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/proxima_nova_font"
+        android:textColor="@color/gray" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signUpButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/checkboxTermsandPrivacy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/viewOuter"
+        android:layout_marginHorizontal="40dp"
+        android:fontFamily="@font/proxima_nova_font"
+        android:background="@color/orange"
+        android:text="@string/SignUP"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/proxima_nova_font"
+        android:text="@string/have_account_signIn"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/viewOuter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpButton" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

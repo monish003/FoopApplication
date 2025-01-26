@@ -1,0 +1,11 @@
+<!-- res/drawable/s_shape_curve.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="600dp"
+    android:viewportWidth="100"
+    android:viewportHeight="200">
+
+    <path
+        android:pathData="M 0,0 C 25,50 75,50 100,0 L 100,200 C 75,150 25,150 0,200 Z"
+        android:fillColor="#F57C00"/>
+</vector>
