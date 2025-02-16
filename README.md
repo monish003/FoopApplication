@@ -1,2 +1,3 @@
 # FoopApplication
 ### APPLICATION is coded in JAVA for android phn users...
+### Fully coded in JAVA, XML in android studio ide
