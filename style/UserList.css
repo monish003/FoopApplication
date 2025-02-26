@@ -1,0 +1,119 @@
+/* Container for the user cards, aligned in a single column */
+.users-container {
+  display: flex;
+  
+  align-items: start;
+  padding: 30px;
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Individual user card */
+.user-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for user cards */
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section inside the user card */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* User's name in the card header */
+.username {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+  margin-right: 10px;
+}
+
+/* User's phone number */
+.phone {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Edit icon style */
+.edit-icon {
+  font-size: 1.4rem;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.edit-icon:hover {
+  color: #0056b3;
+}
+
+/* Styling for the edit form */
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Input fields in the edit form */
+.input-field {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Save button in the edit form */
+.save-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-btn:hover {
+  background-color: #218838;
+}
+
+/* Styling for the overall layout */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Main title */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #333;
+}

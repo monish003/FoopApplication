@@ -1,0 +1,97 @@
+/* Container for the entire section */
+.tiffin-centers-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Title styling */
+  .tiffin-centers-title {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Container for all tiffin center cards */
+  .tiffin-centers-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Each tiffin center card */
+  .tiffin-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tiffin-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Name and description of the tiffin center */
+  .tiffin-name {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .tiffin-description {
+    color: #555;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Pricing for lunch and dinner */
+  .pricing {
+    margin: 10px 0;
+  }
+  
+  .price {
+    font-size: 16px;
+    color: #FF6F00;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Date range display */
+  .date-range {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  /* Button styling */
+  .view-details-btn {
+    background-color: #F57C00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .view-details-btn:hover {
+    background-color: #FF6F00;
+  }
+  
+  @media (max-width: 768px) {
+    .tiffin-card {
+      width: 100%;
+      max-width: 350px;
+    }
+  }
+  

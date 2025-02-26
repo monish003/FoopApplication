@@ -1,0 +1,51 @@
+/* Orders.css */
+.orders-page {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .orders-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .order-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .order-card p {
+    margin: 5px 0;
+    line-height: 1.5;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .delivered-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .delivered-button:hover {
+    background-color: #218838;
+  }
+  

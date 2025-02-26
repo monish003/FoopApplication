@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+.dashboard-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main Section Styles */
+.dashboard-main {
+    padding: 20px;
+}
+
+/* Stats Section Styles */
+.dashboard-stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.stat-card {
+    flex: 1 1 45%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-card h3 {
+    margin-bottom: 20px;
+}
+
+.stat-card canvas {
+    max-height: 300px;
+}
+
+.stat-card p {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Restaurant List Section */
+.restaurant-list {
+    margin-top: 40px;
+}
+
+.restaurant-list h2 {
+    text-align: center;
+    color: #FF6F00;
+}
+
+.restaurants-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.restaurant-card {
+    flex: 1 1 20%;
+    background-color: #FF6F00;
+    color: black;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-card h3 {
+    margin-bottom: 10px;
+}
+
+.restaurant-card p {
+    margin: 5px 0;
+}
+
+/* About Us Section */
+.about-us {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+    text-align: center;
+    color: #4caf50;
+}
