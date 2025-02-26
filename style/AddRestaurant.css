@@ -1,0 +1,74 @@
+/* Container styling */
+.add-restaurant-container {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Title styling */
+h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+/* Form styling */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input box styling - reduced size */
+.input-box {
+    padding: 8px;  /* Reduced padding for smaller input box */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* Input field styling */
+.input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+/* Food item box styling - added space between items */
+.food-item-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  /* Increased gap between food items */
+}
+
+/* Button styling */
+.add-button,
+.submit-button {
+    padding: 10px;
+    background-color: #F57C00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-button:hover,
+.submit-button:hover {
+    background-color: #FF6F00;
+}
+
+/* Message styling */
+.message {
+    margin-top: 20px;
+    color: #555;
+    text-align: center;
+}
