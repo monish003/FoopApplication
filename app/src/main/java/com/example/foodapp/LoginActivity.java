@@ -23,9 +23,8 @@ public class LoginActivity extends AppCompatActivity {
 
 
     private String[] messages = {
-            "Made with Love - Every Meal Matters",
-            "Welcome Users",
-            "Enjoy Your Food Journey"
+            "This changes are made to check webhooks",
+            "So will raise PR and check if this works well.."
     };
 
     private int messageIndex = 0;
