@@ -55,6 +55,10 @@ public class LoginActivity extends AppCompatActivity {
         btn_otp=findViewById(R.id.btn_otp);
     }
 
+    private void opt(){
+        System.out.println('Added function to chcek on code changes')
+    }
+
     private void LoginFuctionality(){
 
         login.setOnClickListener(new View.OnClickListener() {
@@ -131,5 +135,5 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
-HELLO BUDDY HOPE THIS IS WRONG..
+
 }
