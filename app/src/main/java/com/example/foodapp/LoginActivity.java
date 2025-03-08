@@ -44,6 +44,10 @@ public class LoginActivity extends AppCompatActivity {
         navigateToSignUp();
         startTextAnimation();
         OTPButtonActionListener();
+        addednewfunct();
+    }
+    private void addednewfunct(){
+        System.out.println('To check on code change')
     }
 
     private void initView(){
