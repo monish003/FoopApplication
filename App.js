@@ -26,6 +26,8 @@ function App() {
                     <Route path="/user-list" element={<Subscription/>}/>
                     <Route path="/order-list" element={<Orders/>}/>
                     <Route path="/payment-transaction" element={<PaymentTransaction/>}/>
+                    <Route path="/order-list" element={<Orders/>}/>
+                    <Route path="/payment-transaction" element={<PaymentTransaction/>}/>
 
 
                     <Route path="/foodapp/:restaurantId" element={<AddFood />} />
