@@ -11,6 +11,9 @@ jobs:
     name: Notify Developer on PR
     runs-on: ubuntu-latest
 
+    permissions:
+      pull-requests: write 
+
     steps:
       - name: Checkout PR Code
         uses: actions/checkout@v3
