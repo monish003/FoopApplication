@@ -9,7 +9,7 @@ on:
 jobs:
   notify_pr:
     name: Notify Developer on PR
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout PR Code
