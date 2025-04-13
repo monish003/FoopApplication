@@ -1,0 +1,35 @@
+name: PR_Comment_Notifier
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches:
+      - '*'
+
+jobs:
+  notify_pr:
+    name: Notify Developer on PR
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout PR Code
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Comment on PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          REPO=${{ github.repository }}
+
+          COMMENT_BODY="👋 Hi @${{ github.event.pull_request.user.login }},  
+          We’ve initiated the Smart Code Review 🤖.  
+          Please hang tight while we analyze your changes and send you the insights via email 📩."
+
+          curl -s -X POST \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/$REPO/issues/$PR_NUMBER/comments \
+            -d "$(jq -n --arg body "$COMMENT_BODY" '{body: $body}')"
