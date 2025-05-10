@@ -10,6 +10,10 @@ sdkbivud
   pointer-events: none;
 }
 
+.App-logo {
+  height: 23vmin;
+  pointer-events: None;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
