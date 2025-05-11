@@ -18,8 +18,7 @@ function App() {
             <Header />
             <main style={{ padding: '20px' }}>
                 <Routes>
-                    <Route path="/" element={<AboutUs />} />
-                    <Route path="/add-restaurants" element={<AddRestaurant />} />
+                    <Route path="/add-restaura" element={<AddRestaurant />} /
                     <Route path="/add-tiffins" element={<AddTiffin />} />
                     <Route path="/show-restaurants" element={<ShowRestaurants />} />
                     <Route path="/show-tiffin-centers" element={<ShowTiffinCenters />} />
