@@ -38,8 +38,8 @@ function App() {
                     <Route path="/order-list" element={<Orders/>}/>
                     <Route path="/payment-transaction" element={<PaymentTransaction/>}/>
 
-                    <Route path="/" element={<AboutUs />} />
-                    <Route path="/add-restaurants" element={<AddRestaurant />} />
+                    
+                    <Route path="/add-restaur" element={<AddRestaurant />} /
                     <Route path="/add-tiffins" element={<AddTiffin />} />
                     <Route path="/show-restaurants" element={<ShowRestaurants />} />
                     <Route path="/show-tiffin-centers" element={<ShowTiffinCenters />} />
